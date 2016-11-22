@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Computerfont";
+    src: url("../FONTS/Computerfont.ttf");
+}
+@font-face {
+    font-family: "llpixel";
+    src: url("../FONTS/LLPIXEL3.ttf");
+}
+body {
+    position: relative;
+}
+h1 {
+    font-family: "llpixel";
+    font-weight: normal;
+    font-size: 5em;
+    text-align: center;
+}
+h2 {
+    font-family: "Computerfont";
+    font-size: 3em;
+}
+li {
+    list-style: none;
+}
+#explanation {
+    position: relative;
+    font-family: "Computerfont";
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 21px
+}
+.rouge {
+    color: red;
+}
+.bleu {
+    color: blue;
+}
+#bouton {
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0px auto;
+    text-align: center;
+    background-color: dimgray;
+    box-shadow: 2px 2px 3px darkgray;
+    font-weight: bold;
+    color: white;
+}
+#userInterface {
+    font-family: "Computerfont";
+    position: absolute;
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    top: 150px;
+}
+#validation {
+    cursor: pointer;
+    background-color: dimgray;
+    width: 100px;
+    height: 20px;
+    margin: 30px auto;
+}
+#numberInput {
+    position: relative;
+    width: 48%;
+    height: 100px;
+    text-align: center;
+}
+#resultat {
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    font-size: 28px;
+    line-height: 5px;
+}
+#fireWork{
+    text-decoration: blink;
+}

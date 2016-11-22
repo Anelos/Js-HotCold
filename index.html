@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jeu de Chaud-Froid</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <h1>Le jeu du <span class="rouge">Chaud</span>-<span class="bleu">Froid</span></h1>
+    <div id="explanation">
+        <h2>Les règles</h2>
+        <p>Les règles du jeu sont simples: l'odinateur choisi un nombre aléatoire entre 1 et 100 et c'est à vous de trouver quel est ce nombre.</p>
+        <p>Pour vous aider dans cette tache, l'ordinateur vous donnera un indice afin de mieux vous positionner par rapport à ce nombre:</p>
+        <ul>
+            <li>Froid: vous vous trouvez loin du nombre à rechercher</li>
+            <li>Chaud: vous êtes proche du nombre à trouver</li>
+        </ul>
+        <div id="bouton">
+            Cliquez ici pour commencer
+        </div>
+    </div>
+
+    <div id="userInterface">
+        <div id="numberInput">
+            <label for="setNumber">Entrez un nombre entre 1 et 100</label><br>
+            <input type="text" name="setNumber" id="setNumber">
+            <div id="validation">Validez</div>
+        </div>
+        <div id="resultat"> <p>Nombre de tour: <span id="tour"></span></p></div>
+    </div>
+    <script src="JS/chaudFroid.js"></script>
+</body>
+
+</html>
